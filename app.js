@@ -27,4 +27,4 @@ app.listen(port, function() {
 });
 
 // Get server IP address
-var ip_address = require('./public/js/ip_address.js');
+//var ip_address = require('./public/js/ip_address.js');
