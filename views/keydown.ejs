@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+<HEAD>
+	<% include partials/head.ejs %>
+	<% include partials/scripts.ejs %>
+</HEAD>
+
+<BODY>
+
+	<h4>jQuery Examples</h4>
+
+	<p>Basic examples of jQuery</p>
+
+	<div class="link">
+		<a href="/">Return to Other Examples</a>
+	</div>
+
+	<h3>Keydown Example</h3>
+	<p>Use the keyboard arrow keys to move Mario around the board</p>
+
+	<div id="mario-box">
+		<img src="/images/mario.png" id="mario">
+
+		<table id="mario-table">
+			<tr>
+				<td>Vertical</td>
+				<td class="table-data"><span id="mario-height">265</span>px</td>
+				<td>Horizontal</td>
+				<td class="table-data"><span id="mario-width">10</span>px</td>
+			</tr>
+		</table>
+
+		<p class="error-msg" id="mario-error"></p>
+
+	</div>
+
+
+	<% include partials/footer.ejs %>
+
+</BODY>
+
+<HTML>

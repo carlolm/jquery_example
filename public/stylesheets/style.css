@@ -24,8 +24,20 @@ input:hover {
 	background-color	: WhiteSmoke;
 }
 
+.link {
+	font-family	: Jura;
+	background-color: WhiteSmoke;
+	width: 150px;
+	border: 1px solid Gray;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.link:hover {
+	background-color	: LightGray;
+}
+
 a:hover {
-	background-color	: WhiteSmoke;
 	text-decoration		: none;
 }
 

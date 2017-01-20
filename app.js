@@ -14,6 +14,12 @@ app.get('/', function(req, res) {
 	});
 });
 
+app.get('/keydown', function(req, res) {
+	res.render('keydown', {
+		title: 'jQuery Example: Keydown'
+	});
+});
+
 
 
 /** Host on server/cloud or local port **/
