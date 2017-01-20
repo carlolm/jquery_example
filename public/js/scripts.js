@@ -75,4 +75,21 @@ $(document).ready(function() {
 
 	$('#accordion-menu').accordion();
 
+
+/**
+*	Append and remove text
+*/
+
+	var textCount = 0;
+
+    $('#button').click(function() {
+    	textCount += 1;
+        var toAdd = $('input[name=checkListItem]').val();
+        $('.list').append('<div class="item">[ ' + textCount + ' ] ' + toAdd);
+    });
+    
+    $(document).on('click', '.item', function() {
+        $(this).remove();
+    });
+
 });

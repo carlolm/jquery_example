@@ -7,6 +7,22 @@ body {
 	padding		: 20px;
 }
 
+/* -----------------------------
+Container Styles 
+-------------------------------- */
+
+.examples {
+	margin-top: 20px;	
+	margin-bottom: 10px;
+	padding: 10px 0px 20px 0px;
+	border-bottom: 1px gray dashed;
+}
+
+
+/* -----------------------------
+Text Styles 
+-------------------------------- */
+
 h1 {
 	font-family	: Jura;
 	color 		: RoyalBlue;
@@ -31,19 +47,31 @@ p {
 	color 		: LightSlateGray;
 }
 
+.item {
+	color: DarkBlue;
+	font-weight: Bold;
+}
+
+/* -----------------------------
+Form Styles 
+-------------------------------- */
+
 input {
 	font-family	: Jura;
 }
 
-input:hover {
+input:hover, .item:hover {
 	background-color	: WhiteSmoke;
 }
 
-.examples {
-	margin-top: 20px;	
-	margin-bottom: 10px;
-	padding: 10px 0px 20px 0px;
-	border-bottom: 1px gray dashed;
+#text-form {
+	display: inline-block;
+}
+
+#text-input {
+	display: inline-block;
+	width: 300px;
+	padding: 2px;
 }
 
 .list-item {
@@ -72,16 +100,6 @@ td {
 	padding		: 5px;
 }
 
-.button-cell {
-	text-align	: center;
-	margin		: auto; 
-}
-
-.button-clicked {
-	background-color: LightSlateGray;
-	opacity: 1;
-	border: dashed;
-}
 
 .table-data {
 	color 		: LightSlateGray;
@@ -154,6 +172,33 @@ td {
 	padding: 0px 5px 0px 5px;
 	border: gray 1px solid;
 	background-color: LightGray;
+}
+
+
+/* -----------------------------
+Button Styles 
+-------------------------------- */
+
+.button-cell {
+	text-align	: center;
+	margin		: auto; 
+}
+
+.button-clicked {
+	background-color: LightSlateGray;
+	opacity: 1;
+	border: dashed;
+}
+
+#button {
+	font-family	: Jura;
+	background-color: WhiteSmoke;
+	width: 150px;
+	border: 1px solid Gray;
+	text-align: center;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 2px;
 }
 
 /* -----------------------------
