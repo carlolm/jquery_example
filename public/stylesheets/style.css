@@ -7,9 +7,23 @@ body {
 	padding		: 20px;
 }
 
-h4 {
+h1 {
 	font-family	: Jura;
 	color 		: RoyalBlue;
+	font-size: 2em;
+}
+
+h2 {
+	font-family	: Jura;
+	color 		: White;
+	font-size: 1.5em;
+	background-color: Grey;
+}
+
+h3 {
+	font-family	: Jura;
+	color 		: RoyalBlue;
+	font-size: 1em;
 }
 
 p {
@@ -22,6 +36,13 @@ input {
 
 input:hover {
 	background-color	: WhiteSmoke;
+}
+
+.examples {
+	margin-top: 20px;	
+	margin-bottom: 20px;
+	padding: 10px 0px 10px 0px;
+	border-top: 1px gray dashed;
 }
 
 .link {
