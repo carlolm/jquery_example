@@ -7,8 +7,6 @@ app.set('view engine', 'ejs');
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'public')));
 
-var jquery = require('jquery');
-
 /**	Routes **/
 app.get('/', function(req, res) {
 	res.render('index', {
@@ -27,4 +25,4 @@ app.listen(port, function() {
 });
 
 // Get server IP address
-//var ip_address = require('./public/js/ip_address.js');
+var ip_address = require('./public/js/ip_address.js');
