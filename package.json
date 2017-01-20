@@ -1,0 +1,13 @@
+{
+  "name": "jquery_example",
+  "version": "1.0.0",
+  "description": "jQuery Example",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlo P. Las Marias",
+  "license": "ISC"
+}

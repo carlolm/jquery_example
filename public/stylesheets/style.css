@@ -1,0 +1,160 @@
+* {
+	font-family: Muli;
+}
+
+body {
+	display		: block;
+	padding		: 20px;
+}
+
+h4 {
+	font-family	: Jura;
+	color 		: RoyalBlue;
+}
+
+p {
+	color 		: LightSlateGray;
+}
+
+input {
+	font-family	: Jura;
+}
+
+input:hover {
+	background-color	: WhiteSmoke;
+}
+
+a:hover {
+	background-color	: WhiteSmoke;
+	text-decoration		: none;
+}
+
+td {
+	margin 		: 10px;
+	padding		: 5px;
+}
+
+.button-cell {
+	text-align	: center;
+	margin		: auto; 
+}
+
+.button-clicked {
+	background-color: LightSlateGray;
+	opacity: 1;
+	border: dashed;
+}
+
+.table-data {
+	color 		: LightSlateGray;
+	margin 		: 10px;
+	padding		: 5px;
+}
+
+.error-msg {
+	color 		: red;
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	display: inline-block;
+	opacity: 0.5;
+}
+
+#blue {
+	background-color: DarkBlue;
+}
+
+#light-blue {
+	background-color: CornflowerBlue;
+}
+
+#gray {
+	background-color: Grey;
+}
+
+#light-gray {
+	background-color: LightGrey;
+}
+
+#mario-box {
+	background-image: url("/images/mario-bg.jpg");
+	height: 464px;
+	width: 534px; 
+}
+
+#mario {
+	height: 50px;
+	clear: both;
+	position: relative;
+	left: 10px;
+	top: 265px;
+	z-index: 1;
+}
+
+#mario-table {
+	position: relative;
+	width: 275px;
+	left: 160px;
+	top: 75px;
+	background-color: LightGrey;
+}
+
+#mario-error {
+	position: relative;
+	width: 275px;
+	text-align: center;
+	left: 160px;
+	top: 10px;
+	font-weight: bold;
+}
+
+/* -----------------------------
+Footer Styles 
+-------------------------------- */
+
+footer {
+	margin-top: 50px;
+}
+
+footer::before {
+	content: "";
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border-top: 1px solid #dedede;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer p {
+	float: left;
+	color: #999;
+	letter-spacing: 0.3px;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+footer .social-media-icons {
+	float: right;
+}
+
+footer .social-media-icons i {
+	font-size: 24px;
+	color: #999;
+	transition: 0.5s ease-in-out;
+}
+
+footer .social-media-icons a:first-child {
+	margin-right: 20px;
+}
+
+footer .social-media-icons a:last-child:hover i {
+	color: #af0b0c;
+}
+
+footer .social-media-icons a:first-child:hover i {
+	color: #333;
+}
