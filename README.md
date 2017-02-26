@@ -19,11 +19,11 @@ Link to scripts in HTML file
 # Functions:
 - `on(<event>, [selector], <event handler>)`
 
-```
-$('target').on('click', function() {});
+  ```
+  $('target').on('click', function() {});
 
-$('parent').on('click', 'button', function() {});
-```
+  $('parent').on('click', 'button', function() {});
+  ```
 
 - `mouseenter()` | `mouseleave()`
 - `click()` | `dblclick()`
