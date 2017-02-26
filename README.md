@@ -14,9 +14,10 @@ Link to scripts in HTML file
 - $var: $ prefix denotes jQuery object
 - $('var'): creates a jQuery object (html tags, IDs, classes, CSS selector)
 - $('var1, var2'): can select multiple objects
-
+- $(this).function
 
 # Functions:
+- `on(<event>, <event handler>)`
 - `mouseenter()` | `mouseleave()`
 - `click()` | `dblclick()`
 - `hover([function 1: hover], [function 2: mouse leaves])`
@@ -25,6 +26,7 @@ Link to scripts in HTML file
 - `faceIn('fast')` | `fadeOut('slow')`
 - `slideToggle('slow')`
 - `append()` | `prepend()` or `appendTo()` | `prependTo()`
+- `insertAfter()` | `insertBefore()`
 - `empty()` | `remove()`
 - `after()` | `before()`
 - `addClass('className')` | `removeClass('className')`
@@ -42,6 +44,12 @@ Link to scripts in HTML file
 - `selectable()`
 - `sortable()`
 
+# Selectors / Traversing
+- `closest()`
+- `$("element").first()`: first() | last() | next() | prev() | parent() | child()
+> - method chaining: $().first().next()
+> - .children("li"): children that are list items only
+- :first | :last | :even
 
 # Examples:
 - `var input = $('input[name=firstName]’).val()`
