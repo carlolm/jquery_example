@@ -54,10 +54,8 @@ Link to scripts in HTML file
 # Selectors / Traversing
 - `closest()`
 - `$("element").first()`: first() | last() | next() | prev() | parent() | child()
-
-> - method chaining: $().first().next()
-> - .children("li"): children that are list items only
-
+  - method chaining: $().first().next()
+  - .children("li"): children that are list items only
 - :first | :last | :even
 
 # Examples:
