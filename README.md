@@ -55,7 +55,8 @@ Link to scripts in HTML file
 
 # Examples:
 - `var input = $('input[name=firstName]’).val()`
-- ```
+-
+```
 $(document).keydown(function(key) {
     switch(parseInt(key.which, 10)) {
       case 37: // left
