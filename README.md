@@ -17,14 +17,21 @@ Link to scripts in HTML file
 - $(this).function
 
 # Functions:
-- `on(<event>, <event handler>)`
+- `on(<event>, [selector], <event handler>)`
+
+```
+$('target').on('click', function() {});
+
+$('parent').on('click', 'button', function() {});
+```
+
 - `mouseenter()` | `mouseleave()`
 - `click()` | `dblclick()`
 - `hover([function 1: hover], [function 2: mouse leaves])`
 - `hide()`
 - `fadeTo('fast', 0.25)`: quickly fade to 25% opacity
 - `faceIn('fast')` | `fadeOut('slow')`
-- `slideToggle('slow')`
+- `slideDown() | slideUp()| slideToggle('slow')`
 - `append()` | `prepend()` or `appendTo()` | `prependTo()`
 - `insertAfter()` | `insertBefore()`
 - `empty()` | `remove()`
