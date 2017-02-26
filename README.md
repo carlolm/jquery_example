@@ -55,7 +55,8 @@ Link to scripts in HTML file
 
 # Examples:
 - `var input = $('input[name=firstName]’).val()`
-- ```$(document).keydown(function(key) {
+- ```
+$(document).keydown(function(key) {
     switch(parseInt(key.which, 10)) {
       case 37: // left
         $('img').animate({left: "-=10px"}, 'fast');
@@ -70,7 +71,8 @@ Link to scripts in HTML file
         $('img').animate({top: "+=10px"}, 'fast');
         break;     
     }
-  });```
+  });
+```
 
 
 # Links:
