@@ -32,12 +32,22 @@ Link to scripts in HTML file
   ```
   $('element').data('price') gets <element data-price="100">
   ```
+- `preventDefault()`: for example, prevent browser from navigating to the top of the page after an action
+
+  ```
+  function(event) {
+    event.preventDefault();
+  }
+  ```
+
+- `stopPropagation()`: 
+- `show() | hide()`
 - `mouseenter()` | `mouseleave()`
 - `click()` | `dblclick()`
 - `hover([function 1: hover], [function 2: mouse leaves])`
 - `hide()`
 - `fadeTo('fast', 0.25)`: quickly fade to 25% opacity
-- `faceIn('fast')` | `fadeOut('slow')`
+- `faceIn('fast')` | `fadeOut('slow')` | `fadeToggle()`
 - `slideDown() | slideUp()| slideToggle('slow')`
 - `append()` | `prepend()` or `appendTo()` | `prependTo()`
 - `insertAfter()` | `insertBefore()`
@@ -45,6 +55,7 @@ Link to scripts in HTML file
 - `after()` | `before()`
 - `addClass('className')` | `removeClass('className')`
 - `toggleClass()`
+- `hasClass()`
 - `height('100px')`| `width('100ox')`
 - `css('property', 'value')`
 - `html()` | `val()`: change the contents between the selected item's opening and closing tags
