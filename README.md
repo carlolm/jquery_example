@@ -18,6 +18,9 @@ Link to scripts in HTML file
 
 # Functions:
 - `on(<event>, [selector], <event handler>)`
+  - **Mouse Events**: click | dblclick | focusin | focusout | mousedown | mouseup | mousemove | mouseout | mouseover | mouseleave | mouseenter
+  - **Keyboard Events**: keypress | keydown | keyup
+  - **Form Events**: blur | focus | select | submit | change
 
   ```
   $('target').on('click', function() {});
@@ -25,6 +28,10 @@ Link to scripts in HTML file
   $('parent').on('click', 'button', function() {});
   ```
 
+- `data()`: get data from html field 
+  ```
+  $('element').data('price') gets <element data-price="100">
+  ```
 - `mouseenter()` | `mouseleave()`
 - `click()` | `dblclick()`
 - `hover([function 1: hover], [function 2: mouse leaves])`
@@ -79,7 +86,6 @@ $(document).keydown(function(key) {
     }
   });
 ```
-
 
 # Links:
 - Selectors: http://learn.jquery.com/using-jquery-core/selecting-elements/
